@@ -1,26 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import StarWars from "./Components/StarWars";
 import Item from './Components/MyItem';
-
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <Item name="James"/>
-        <p>
-          Testing testing testing
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <br/>
+        <StarWars/>
       </header>
     </div>
   );
